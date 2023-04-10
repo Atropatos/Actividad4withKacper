@@ -1,0 +1,42 @@
+body {
+    background-color: gainsboro;
+}
+
+.main {
+    size: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.left {
+    display: block;
+    background-color: red;
+    height: 100px;
+    width: 48%;
+    float: left;
+    text-align: center;
+    border: 5px solid darkred;
+}
+
+.right {
+    display: block;
+    background-color: blue;
+    height: 100px;
+    width: 48%;
+    float: right;
+    text-align: center;
+    top: 50%;
+    border: 5px solid darkblue;
+}
+
+.form {
+    clear: both;
+}
+
+.info {
+    background-color: lime;
+    width: auto;
+    border: 5px dotted black;
+    padding: 10px;
+    margin: auto;
+}
